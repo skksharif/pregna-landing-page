@@ -155,7 +155,7 @@ const Experts: React.FC = () => {
               <img
                 src="https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Medical Team Collaborating"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />
             </motion.div>
           </div>

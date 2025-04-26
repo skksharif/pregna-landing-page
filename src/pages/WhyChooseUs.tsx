@@ -81,7 +81,7 @@ const WhyChooseUs: React.FC = () => {
               <img
                 src="https://images.pexels.com/photos/4226765/pexels-photo-4226765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Mother and Baby Care"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />
             </motion.div>
           </div>
@@ -373,7 +373,7 @@ const WhyChooseUs: React.FC = () => {
               <img
                 src="https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Medical Technology"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl w-full h-auto"
               />
             </motion.div>
 

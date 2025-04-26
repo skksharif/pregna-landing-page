@@ -162,7 +162,7 @@ const Services: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="https://images.pexels.com/photos/6667561/pexels-photo-6667561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="./src/assets/services.png"
                 alt="Maternal Care"
                 className="rounded-xl shadow-lg w-full h-auto"
               />

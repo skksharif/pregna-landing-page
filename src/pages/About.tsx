@@ -79,7 +79,7 @@ const About: React.FC = () => {
               <img
                 src="https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Pregna Clinic"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />
             </motion.div>
 

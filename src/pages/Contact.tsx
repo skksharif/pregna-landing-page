@@ -6,6 +6,7 @@ import SectionTitle from '../components/SectionTitle';
 import AppointmentForm from '../components/AppointmentForm';
 
 const Contact: React.FC = () => {
+  
   return (
     <PageTransition>
       {/* Hero Section */}
@@ -33,104 +34,104 @@ const Contact: React.FC = () => {
       </section>
 
       {/* Contact Info */}
-      <section className="py-16 bg-white">
-        <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <SectionTitle
-                title="Get in Touch"
-                subtitle="We're here to help you with any questions or concerns"
-                center={false}
-              />
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div>
+                <SectionTitle
+                  title="Get in Touch"
+                  subtitle="We're here to help you with any questions or concerns"
+                  center={false}
+                />
 
-              <motion.div
-                className="space-y-8 mt-8"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-              >
-                <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+                <motion.div
+                  className="space-y-8 mt-8"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
+                      <MapPin className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary mb-2">Our Location</h3>
+                      <p className="text-text-gray">
+                        29-23-31/1, Venkataratnam Street, Suryaraopet, Vijayawada – 520002
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-primary mb-2">Our Location</h3>
-                    <p className="text-text-gray">
-                      29-23-31/1, Venkataratnam Street, Suryaraopet, Vijayawada – 520002
-                    </p>
-                  </div>
-                </div>
 
-                <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary" />
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
+                      <Phone className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary mb-2">Phone Numbers</h3>
+                      <p className="text-text-gray">
+                        <a href="tel:+919305669999" className="hover:text-primary transition-colors">
+                          Appointments: 9305 66 99 99
+                        </a>
+                        <br />
+                        <a href="tel:+918662437968" className="hover:text-primary transition-colors">
+                          Reception: 0866 2437968
+                        </a>
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-primary mb-2">Phone Numbers</h3>
-                    <p className="text-text-gray">
-                      <a href="tel:+919305669999" className="hover:text-primary transition-colors">
-                        Appointments: 9305 66 99 99
-                      </a>
-                      <br />
-                      <a href="tel:+918662437968" className="hover:text-primary transition-colors">
-                        Reception: 0866 2437968
-                      </a>
-                    </p>
-                  </div>
-                </div>
 
-                <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
-                    <Mail className="w-6 h-6 text-primary" />
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
+                      <Mail className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary mb-2">Email Address</h3>
+                      <p className="text-text-gray">
+                        <a href="mailto:info@vpregna.com" className="hover:text-primary transition-colors">
+                          info@vpregna.com
+                        </a>
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-primary mb-2">Email Address</h3>
-                    <p className="text-text-gray">
-                      <a href="mailto:info@vpregna.com" className="hover:text-primary transition-colors">
-                        info@vpregna.com
-                      </a>
-                    </p>
-                  </div>
-                </div>
 
-                <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
-                    <Clock className="w-6 h-6 text-primary" />
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4 flex-shrink-0">
+                      <Clock className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary mb-2">Hours of Operation</h3>
+                      <p className="text-text-gray">
+                        Monday - Saturday: 9:00 AM - 7:00 PM
+                        <br />
+                        Sunday: Emergency Services Only
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-primary mb-2">Hours of Operation</h3>
-                    <p className="text-text-gray">
-                      Monday - Saturday: 9:00 AM - 7:00 PM
-                      <br />
-                      Sunday: Emergency Services Only
-                    </p>
-                  </div>
-                </div>
-              </motion.div>
+                </motion.div>
 
-              <motion.div
-                className="mt-12 p-6 bg-primary/5 rounded-xl"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                <h3 className="text-lg font-semibold text-primary mb-4">Emergency Contact</h3>
-                <p className="text-text-gray mb-4">
-                  For urgent medical concerns outside of regular hours, please call our emergency line.
-                </p>
-                <a href="tel:+919305669999" className="btn btn-primary inline-flex items-center">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Emergency: 9305 66 99 99
-                </a>
-              </motion.div>
-            </div>
+                <motion.div
+                  className="mt-12 p-6 bg-primary/5 rounded-xl"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                  <h3 className="text-lg font-semibold text-primary mb-4">Emergency Contact</h3>
+                  <p className="text-text-gray mb-4">
+                    For urgent medical concerns outside of regular hours, please call our emergency line.
+                  </p>
+                  <a href="tel:+919305669999" className="btn btn-primary inline-flex items-center">
+                    <Phone className="w-4 h-4 mr-2" />
+                    Emergency: 9305 66 99 99
+                  </a>
+                </motion.div>
+              </div>
 
-            <div>
-              <AppointmentForm />
+              <div>
+                <AppointmentForm />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       {/* Map */}
       <section className="py-16 bg-background">

@@ -20,9 +20,17 @@ const AppointmentForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission (would connect to a backend in production)
-    console.log(formData);
-    alert('Thank you for your appointment request. We will contact you shortly!');
+    // Prepare message to send via WhatsApp
+    const message = `Appointment Request:\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.service}\nDate: ${formData.date}\nTime: ${formData.time}\nMessage: ${formData.message}`;
+    
+    // Redirect to WhatsApp with the appointment details
+    const phoneNumber = '+919110788933';
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+    // Redirect the user to WhatsApp
+    window.location.href = whatsappUrl;
+
+    // Optionally, reset form data
     setFormData({
       name: '',
       email: '',

@@ -37,7 +37,7 @@ const Home: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Care for Lives<br /> 
+                Care for Lives <br /> 
                 <span className="text-secondary-dark">Comprehensive</span> Mother & Baby Care
               </motion.h1>
               

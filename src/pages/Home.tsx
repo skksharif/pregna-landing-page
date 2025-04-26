@@ -72,7 +72,7 @@ const Home: React.FC = () => {
               transition={{ duration: 0.8 }}
             >
               <img 
-                src="../assets/logo.png" 
+                src="/assets/home.png" 
                 alt="Mother and baby care" 
                 className="rounded-2xl w-full h-auto"
               />

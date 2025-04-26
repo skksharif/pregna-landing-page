@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
     >
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="/src/assets/logo.png" alt="Pregna Logo" className="h-14" />
+          <img src="/assets/logo.png" alt="Pregna Logo" className="h-14" />
         </Link>
 
         {/* Desktop Navigation */}

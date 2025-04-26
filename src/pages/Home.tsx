@@ -37,7 +37,7 @@ const Home: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Care for Lives —<br /> 
+                Care for Lives<br /> 
                 <span className="text-secondary-dark">Comprehensive</span> Mother & Baby Care
               </motion.h1>
               
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
               transition={{ duration: 0.8 }}
             >
               <img 
-                src="./src/assets/home.png" 
+                src="../assets/logo.png" 
                 alt="Mother and baby care" 
                 className="rounded-2xl w-full h-auto"
               />

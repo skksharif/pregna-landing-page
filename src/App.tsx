@@ -15,6 +15,7 @@ import WhyChooseUs from './pages/WhyChooseUs';
 import MotherBabyCare from './pages/MotherBabyCare';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="why-choose-us" element={<WhyChooseUs />} />
             <Route path="mother-baby-care" element={<MotherBabyCare />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="gallery" element={<Gallery/>}/>
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

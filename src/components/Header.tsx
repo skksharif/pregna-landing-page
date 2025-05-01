@@ -19,6 +19,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
     { name: 'About', path: '/about' },
     { name: 'Our Experts', path: '/experts' },
     { name: 'Services', path: '/services' },
+    {name:'Gallery' , path: '/gallery'},
     { name: 'Why Choose Us', path: '/why-choose-us' },
     { name: 'Mother & Baby Care', path: '/mother-baby-care' },
     { name: 'Contact', path: '/contact' },

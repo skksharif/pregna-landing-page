@@ -15,6 +15,7 @@ import PageTransition from '../components/PageTransition';
 import SectionTitle from '../components/SectionTitle';
 import ServiceCard from '../components/ServiceCard';
 import AppointmentForm from '../components/AppointmentForm';
+import Gallery from './Gallery';
 
 const Home: React.FC = () => {
   return (
@@ -80,6 +81,8 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+    
 
       {/* Quick About */}
       <section className="py-16 bg-white">
@@ -311,6 +314,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      <Gallery />
 
       {/* Appointment */}
       <section className="py-16 bg-background">

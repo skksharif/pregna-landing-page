@@ -11,14 +11,14 @@ const Experts: React.FC = () => {
       qualification: "MD (Peds)",
       role: "Chief Neonatal & Pediatric Intensivist",
       expertise: "20+ years experience with 96.9% NICU survival rate",
-      image: "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "./assets/doctors/rao.jpg"
     },
     {
       name: "Dr. N. Durga Sri Lakshmi",
       qualification: "MD (OBG)",
       role: "Consultant Gynaecologist, Fertility Specialist",
       expertise: "Expert in high-risk pregnancies, IVF/ICSI (2000+), IUI (20,000+), laparoscopic surgeries",
-      image: "https://images.pexels.com/photos/5214958/pexels-photo-5214958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "./assets/doctors/durga.jpg"
     },
     {
       name: "Dr. B. Sudhakar",

@@ -30,7 +30,7 @@ const ExpertCard: React.FC<ExpertCardProps> = ({
         <img 
           src={image} 
           alt={name} 
-          className="w-full h-64 object-cover object-center transition-transform duration-500 hover:scale-110"
+          className="w-full h-64 object-contain object-center transition-transform duration-500 hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
           <div className="p-4 text-white">

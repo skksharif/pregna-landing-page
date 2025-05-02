@@ -24,7 +24,7 @@ const AppointmentForm: React.FC = () => {
     const message = `Appointment Request:\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.service}\nDate: ${formData.date}\nTime: ${formData.time}\nMessage: ${formData.message}`;
     
     // Redirect to WhatsApp with the appointment details
-    const phoneNumber = '+919110788933';
+    const phoneNumber = '+919305669999';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
     // Redirect the user to WhatsApp

@@ -371,9 +371,9 @@ const WhyChooseUs: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="./assets/gallery/equip.jpg"
                 alt="Medical Technology"
-                className="rounded-xl w-full h-auto"
+                className="rounded-xl w-full h-[400px] object-cover"
               />
             </motion.div>
 

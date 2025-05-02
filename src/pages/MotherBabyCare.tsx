@@ -325,9 +325,9 @@ const MotherBabyCare: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="https://images.pexels.com/photos/4225891/pexels-photo-4225891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="./assets/gallery/child3.jpg"
                 alt="Personalized Care Plans"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[400px] object-cover"
               />
             </motion.div>
 

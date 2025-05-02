@@ -162,9 +162,9 @@ const Services: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="./src/assets/services.png"
+                src="./assets/gallery/child1.jpg"
                 alt="Maternal Care"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />
             </motion.div>
           </div>
@@ -205,9 +205,9 @@ const Services: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="https://images.pexels.com/photos/5214987/pexels-photo-5214987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="./assets/gallery/child2.jpg"
                 alt="NICU Care"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />
             </motion.div>
 
@@ -372,9 +372,9 @@ const Services: React.FC = () => {
               className="order-1 lg:order-2"
             >
               <img
-                src="https://images.pexels.com/photos/3985221/pexels-photo-3985221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="./assets/gallery/child4.jpg"
                 alt="Fertility Treatment"
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />
             </motion.div>
           </div>

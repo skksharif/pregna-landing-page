@@ -153,7 +153,7 @@ const Experts: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img
-                src="https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="./assets/gallery/rao1.jpg"
                 alt="Medical Team Collaborating"
                 className="rounded-xl shadow-lg w-full h-[500px] object-cover"
               />

@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 const Gallery = () => {
   const mediaItemsInitial = [
     // 6 images
-    { type: "image", src: "./assets/gallery/rao1.jpg", alt: "Image 1" },
     { type: "image", src: "./assets/gallery/child1.jpg", alt: "Image 2" },
     { type: "image", src: "./assets/gallery/child2.jpg", alt: "Image 3" },
     { type: "image", src: "./assets/gallery/child3.jpg", alt: "Image 4" },
@@ -18,7 +17,7 @@ const Gallery = () => {
     { type: "video", src: "./assets/gallery/v5.mp4", alt: "Video 5" },
   ];
 
-  const shuffleArray = (array) => {
+  const shuffleArray = (array:any) => {
     let newArr = [...array];
     for (let i = newArr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
